@@ -4067,6 +4067,14 @@ BattleScript_DroughtActivates::
 	call BattleScript_WeatherFormChanges
 	end3
 
+BattleScript_SnowWarningActivates::
+	pause 0x20
+	printstring STRINGID_PKMNMADEITHAIL
+	waitstate
+	playanimation BS_BATTLER_0, B_ANIM_HAIL_CONTINUES, NULL
+	call BattleScript_WeatherFormChanges
+	end3
+
 BattleScript_TookAttack::
 	attackstring
 	pause 0x20
