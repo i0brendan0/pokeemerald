@@ -72,9 +72,9 @@ static const u8 sDroughtDescription[] = _("Summons sunlight in battle.");
 static const u8 sArenaTrapDescription[] = _("Prevents fleeing.");
 static const u8 sVitalSpiritDescription[] = _("Prevents sleep.");
 static const u8 sWhiteSmokeDescription[] = _("Prevents ability reduction.");
-static const u8 sPurePowerDescription[] = _("Raises ATTACK.");
+static const u8 sPurePowerDescription[] = _("Raises SPECIAL ATTACK.");
 static const u8 sShellArmorDescription[] = _("Blocks critical hits.");
-static const u8 sCacophonyDescription[] = _("Avoids sound-based moves.");
+static const u8 sCacophonyDescription[] = _("Makes sounds stronger.");
 static const u8 sAirLockDescription[] = _("Negates weather effects.");
 static const u8 sSnowWarningDescription[] = _("Summons a hailstorm.");
 

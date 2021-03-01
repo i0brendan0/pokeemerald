@@ -270,7 +270,8 @@
 #define FRIENDSHIP_EVENT_FAINT_FIELD_PSN  7
 #define FRIENDSHIP_EVENT_FAINT_LARGE      8 // If opponent was >= 30 levels higher. See AdjustFriendshipOnBattleFaint
 
-#define MAX_FRIENDSHIP  0xFF
+#define MAX_FRIENDSHIP			0xFF
+#define FRIENDSHIP_TO_EVOLVE	200
 
 #define STATUS_PRIMARY_NONE      0
 #define STATUS_PRIMARY_POISON    1
@@ -285,7 +286,7 @@
 #define MAX_IV_MASK 31
 #define USE_RANDOM_IVS (MAX_PER_STAT_IVS + 1)
 #define MAX_PER_STAT_EVS 255
-#define MAX_TOTAL_EVS 510
+#define MAX_TOTAL_EVS (MAX_PER_STAT_EVS * NUM_STATS)
 #define EV_ITEM_RAISE_LIMIT 100
 
 #define UNOWN_FORM_COUNT 28

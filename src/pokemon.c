@@ -3133,8 +3133,10 @@ s32 CalculateBaseDamage(struct BattlePokemon *attacker, struct BattlePokemon *de
         defenderHoldEffectParam = ItemId_GetHoldEffectParam(defender->item);
     }
 
-    if (attacker->ability == ABILITY_HUGE_POWER || attacker->ability == ABILITY_PURE_POWER)
+    if (attacker->ability == ABILITY_HUGE_POWER)
         attack *= 2;
+    if (attacker->ability == ABILITY_PURE_POWER)
+        spAttack *= 2;
 
     if (ShouldGetStatBadgeBoost(FLAG_BADGE01_GET, battlerIdAtk))
         attack = (110 * attack) / 100;
@@ -3168,8 +3170,11 @@ s32 CalculateBaseDamage(struct BattlePokemon *attacker, struct BattlePokemon *de
         spAttack *= 2;
     if (defenderHoldEffect == HOLD_EFFECT_DEEP_SEA_SCALE && defender->species == SPECIES_CLAMPERL)
         spDefense *= 2;
-    if (attackerHoldEffect == HOLD_EFFECT_LIGHT_BALL && attacker->species == SPECIES_PIKACHU)
+    if (attackerHoldEffect == HOLD_EFFECT_LIGHT_BALL && (attacker->species == SPECIES_PIKACHU || attacker->species == SPECIES_PICHU || attacker->species == SPECIES_RAICHU))
+	{
+		Attack *= 2;
         spAttack *= 2;
+	}
     if (defenderHoldEffect == HOLD_EFFECT_METAL_POWDER && defender->species == SPECIES_DITTO)
         defense *= 2;
     if (attackerHoldEffect == HOLD_EFFECT_THICK_CLUB && (attacker->species == SPECIES_CUBONE || attacker->species == SPECIES_MAROWAK))
@@ -3178,9 +3183,7 @@ s32 CalculateBaseDamage(struct BattlePokemon *attacker, struct BattlePokemon *de
         spAttack /= 2;
     if (attacker->ability == ABILITY_HUSTLE)
         attack = (150 * attack) / 100;
-    if (attacker->ability == ABILITY_PLUS && ABILITY_ON_FIELD2(ABILITY_MINUS))
-        spAttack = (150 * spAttack) / 100;
-    if (attacker->ability == ABILITY_MINUS && ABILITY_ON_FIELD2(ABILITY_PLUS))
+    if ((attacker->ability == ABILITY_MINUS || attacker->ability == ABILITY_PLUS) && (ABILITY_ON_FIELD2(ABILITY_PLUS) || ABILITY_ON_FIELD2(ABILITY_MINUS)))
         spAttack = (150 * spAttack) / 100;
     if (attacker->ability == ABILITY_GUTS && attacker->status1)
         attack = (150 * attack) / 100;
@@ -3200,6 +3203,10 @@ s32 CalculateBaseDamage(struct BattlePokemon *attacker, struct BattlePokemon *de
         gBattleMovePower = (150 * gBattleMovePower) / 100;
     if (gBattleMoves[gCurrentMove].effect == EFFECT_EXPLOSION)
         defense /= 2;
+	if (attacker->ability == ABILITY_CACOPHONY && (gCurrentMove == MOVE_UPROAR || gCurrentMove == MOVE_HYPER_VOICE || gCurrentMove == MOVE_SNORE))
+        gBattleMovePower = (150 * gBattleMovePower) / 100;
+	if (defender->ability == ABILITY_CACOPHONY && (gCurrentMove == MOVE_UPROAR || gCurrentMove == MOVE_HYPER_VOICE || gCurrentMove == MOVE_SNORE))
+        gBattleMovePower = (75 * gBattleMovePower) / 100;
 
     if (IS_TYPE_PHYSICAL(type))
     {
@@ -5459,17 +5466,17 @@ u16 GetEvolutionTargetSpecies(struct Pokemon *mon, u8 mode, u16 evolutionItem)
             switch (gEvolutionTable[species][i].method)
             {
             case EVO_FRIENDSHIP:
-                if (friendship >= 220)
+                if (friendship >= FRIENDSHIP_TO_EVOLVE)
                     targetSpecies = gEvolutionTable[species][i].targetSpecies;
                 break;
             case EVO_FRIENDSHIP_DAY:
                 RtcCalcLocalTime();
-                if (gLocalTime.hours >= 12 && gLocalTime.hours < 24 && friendship >= 220)
+                if (gLocalTime.hours >= 12 && gLocalTime.hours < 24 && friendship >= FRIENDSHIP_TO_EVOLVE)
                     targetSpecies = gEvolutionTable[species][i].targetSpecies;
                 break;
             case EVO_FRIENDSHIP_NIGHT:
                 RtcCalcLocalTime();
-                if (gLocalTime.hours >= 0 && gLocalTime.hours < 12 && friendship >= 220)
+                if (gLocalTime.hours >= 0 && gLocalTime.hours < 12 && friendship >= FRIENDSHIP_TO_EVOLVE)
                     targetSpecies = gEvolutionTable[species][i].targetSpecies;
                 break;
             case EVO_LEVEL:
