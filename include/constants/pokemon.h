@@ -289,8 +289,6 @@
 #define MAX_TOTAL_EVS (MAX_PER_STAT_EVS * NUM_STATS)
 #define EV_ITEM_RAISE_LIMIT 100
 
-#define UNOWN_FORM_COUNT 28
-
 // Battle move flags
 #define FLAG_MAKES_CONTACT          (1 << 0)
 #define FLAG_PROTECT_AFFECTED       (1 << 1)
