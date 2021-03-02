@@ -7976,7 +7976,7 @@ static void Cmd_settypetorandomresistance(void) // conversion 2
 
         for (rands = 0; rands < 1000; rands++)
         {
-            while (((i = (Random() & 0x7F)) > ARRAY_COUNT(gTypeEffectiveness) / 3));
+            while (((i = (Random() & 0x7F)) > sizeof(gTypeEffectiveness) / 3));
 
             i *= 3;
 
@@ -7992,7 +7992,7 @@ static void Cmd_settypetorandomresistance(void) // conversion 2
             }
         }
 
-        for (j = 0, rands = 0; rands < ARRAY_COUNT(gTypeEffectiveness); j += 3, rands += 3)
+        for (j = 0, rands = 0; rands < sizeof(gTypeEffectiveness); j += 3, rands += 3)
         {
             switch (TYPE_EFFECT_ATK_TYPE(j))
             {

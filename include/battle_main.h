@@ -36,8 +36,9 @@ struct UnknownPokemonStruct4
 #define TYPE_MUL_SUPER_EFFECTIVE    20
 
 // special type table Ids
-#define TYPE_FORESIGHT  0xFE
-#define TYPE_ENDTABLE   0xFF
+#define TYPE_MIRACLE_EYE  0xFD
+#define TYPE_FORESIGHT    0xFE
+#define TYPE_ENDTABLE     0xFF
 
 // defines for the 'DoBounceEffect' function
 #define BOUNCE_MON          0x0
@@ -87,7 +88,7 @@ extern struct UnknownPokemonStruct4 gMultiPartnerParty[MULTI_PARTY_SIZE];
 extern const struct SpriteTemplate gUnknown_0831AC88;
 extern const struct OamData gOamData_BattleSpriteOpponentSide;
 extern const struct OamData gOamData_BattleSpritePlayerSide;
-extern const u8 gTypeEffectiveness[];
+extern const u8 gTypeEffectiveness[128*3];
 extern const u8 gTypeNames[NUMBER_OF_MON_TYPES][TYPE_NAME_LENGTH + 1];
 extern const struct TrainerMoney gTrainerMoneyTable[];
 extern const u8 gAbilityNames[][ABILITY_NAME_LENGTH + 1];
