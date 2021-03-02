@@ -26,7 +26,7 @@ The main section of the bag has been increased. (Currently not done)
 Unobtainable Hoenn Pokemon have returned to the routes they used to be on. (Currently not done)
 Pokemon that evolve by trading will now use a special item to evolve. (Currently not done)
 Some Pokemon will have new types to them. (Currently not done)
-Castform will now show its shiny color if it changes form. (Partially done)
+Castform will now show its shiny color if it changes form.
 Many moves will receive updated data. (Currently not done)
 Splash now does damage when raining. (Currently not done)
 Egg moves have been greatly expanded with many new Pokemon being able to learn many new moves. (Currently not done)
