@@ -1289,22 +1289,10 @@ u8 DoFieldEndTurnEffects(void)
         case ENDTURN_RAIN:
             if (gBattleWeather & WEATHER_RAIN_ANY)
             {
-                if (!(gBattleWeather & WEATHER_RAIN_PERMANENT))
+                if (!(gBattleWeather & WEATHER_RAIN_PERMANENT) && --gWishFutureKnock.weatherDuration == 0)
                 {
-                    if (--gWishFutureKnock.weatherDuration == 0)
-                    {
-                        gBattleWeather &= ~WEATHER_RAIN_TEMPORARY;
-                        gBattleWeather &= ~WEATHER_RAIN_DOWNPOUR;
-                        gBattleCommunication[MULTISTRING_CHOOSER] = 2;
-                    }
-                    else if (gBattleWeather & WEATHER_RAIN_DOWNPOUR)
-                        gBattleCommunication[MULTISTRING_CHOOSER] = 1;
-                    else
-                        gBattleCommunication[MULTISTRING_CHOOSER] = 0;
-                }
-                else if (gBattleWeather & WEATHER_RAIN_DOWNPOUR)
-                {
-                    gBattleCommunication[MULTISTRING_CHOOSER] = 1;
+                    gBattleWeather &= ~WEATHER_RAIN_TEMPORARY;
+                    gBattleCommunication[MULTISTRING_CHOOSER] = 2;
                 }
                 else
                 {
