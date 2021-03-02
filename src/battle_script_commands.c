@@ -787,12 +787,12 @@ static const u16 sPickupItems[] =
     ITEM_ULTRA_BALL,
     ITEM_HYPER_POTION,
     ITEM_RARE_CANDY,
-    ITEM_PROTEIN,
-    ITEM_REVIVE,
     ITEM_HP_UP,
+    ITEM_REVIVE,
+    ITEM_PP_UP,
     ITEM_FULL_RESTORE,
     ITEM_MAX_REVIVE,
-    ITEM_PP_UP,
+    ITEM_PP_MAX,
     ITEM_MAX_ELIXIR,
 };
 
@@ -804,11 +804,11 @@ static const u16 sRarePickupItems[] =
     ITEM_FULL_RESTORE,
     ITEM_ETHER,
     ITEM_WHITE_HERB,
-    ITEM_TM44_REST,
+    ITEM_TM01_FOCUS_PUNCH,
     ITEM_ELIXIR,
     ITEM_TM01_FOCUS_PUNCH,
     ITEM_LEFTOVERS,
-    ITEM_TM26_EARTHQUAKE,
+    ITEM_TM01_FOCUS_PUNCH,
 };
 
 static const u8 sPickupProbabilities[] =
@@ -1377,7 +1377,17 @@ static void Cmd_typecalc(void)
     {
         while (TYPE_EFFECT_ATK_TYPE(i) != TYPE_ENDTABLE)
         {
-            if (TYPE_EFFECT_ATK_TYPE(i) == TYPE_FORESIGHT)
+            if (TYPE_EFFECT_ATK_TYPE(i) == TYPE_MIRACLE_EYE)
+            {
+                if (gBattleMons[gBattlerTarget].status2 & STATUS2_MIRACLE_EYE && moveType == TYPE_PSYCHIC)
+				{
+					i += 3;
+                    continue;
+				}
+                i += 3;
+                continue;
+            }
+            else if (TYPE_EFFECT_ATK_TYPE(i) == TYPE_FORESIGHT)
             {
                 if (gBattleMons[gBattlerTarget].status2 & STATUS2_FORESIGHT)
                     break;
@@ -7966,7 +7976,7 @@ static void Cmd_settypetorandomresistance(void) // conversion 2
 
         for (rands = 0; rands < 1000; rands++)
         {
-            while (((i = (Random() & 0x7F)) > sizeof(gTypeEffectiveness) / 3));
+            while (((i = (Random() & 0x7F)) > ARRAY_COUNT(gTypeEffectiveness) / 3));
 
             i *= 3;
 
@@ -7982,12 +7992,13 @@ static void Cmd_settypetorandomresistance(void) // conversion 2
             }
         }
 
-        for (j = 0, rands = 0; rands < sizeof(gTypeEffectiveness); j += 3, rands += 3)
+        for (j = 0, rands = 0; rands < ARRAY_COUNT(gTypeEffectiveness); j += 3, rands += 3)
         {
             switch (TYPE_EFFECT_ATK_TYPE(j))
             {
             case TYPE_ENDTABLE:
             case TYPE_FORESIGHT:
+			case TYPE_MIRACLE_EYE:
                 break;
             default:
                 if (TYPE_EFFECT_ATK_TYPE(j) == gLastHitByType[gBattlerAttacker]
@@ -9550,16 +9561,27 @@ static void Cmd_pickup(void)
                 if (lvlDivBy10 > 9)
                     lvlDivBy10 = 9;
 
+                u16 k;
                 for (j = 0; j < (int)ARRAY_COUNT(sPickupProbabilities); j++)
                 {
                     if (sPickupProbabilities[j] > rand)
                     {
-                        SetMonData(&gPlayerParty[i], MON_DATA_HELD_ITEM, &sPickupItems[lvlDivBy10 + j]);
+                        k = sPickupItems[lvlDivBy10 + j];
+                        if (k == ITEM_HP_UP)
+                        {
+                            k = (Random() % 6) + ITEM_HP_UP;
+                        }
+                        SetMonData(&gPlayerParty[i], MON_DATA_HELD_ITEM, &k);
                         break;
                     }
                     else if (rand == 99 || rand == 98)
                     {
-                        SetMonData(&gPlayerParty[i], MON_DATA_HELD_ITEM, &sRarePickupItems[lvlDivBy10 + (99 - rand)]);
+						k = sRarePickupItems[lvlDivBy10 + (99 - rand)];
+						if (k == ITEM_TM01_FOCUS_PUNCH)
+						{
+							k = (Random() % 50) + ITEM_TM01_FOCUS_PUNCH;
+						}
+                        SetMonData(&gPlayerParty[i], MON_DATA_HELD_ITEM, &k);
                         break;
                     }
                 }

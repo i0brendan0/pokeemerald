@@ -18,7 +18,7 @@ This is a hack of Pokémon Emerald.
 * Eggs will hatch at level 1. (Currently not done)
 * Nidorina and Nidoqueen are able to breed. (Currently not done)
 * Nidoran M and Volbeat are now able to make Nidoran F and Illumise eggs. (Currently not done)
-* The Pickup table has been changed slightly. All vitamins and All TMs can be retrieved. (Currently not done)
+* The Pickup table has been changed slightly. All vitamins and All TMs can be retrieved.
 * Pokemon with one ability may have a second new ability that changes or stays the same upon evolution. (Currently not done)
 * The main section of the bag has been increased. (Currently not done)
 * Unobtainable Hoenn Pokemon have returned to the routes they used to be on. (Currently not done)
