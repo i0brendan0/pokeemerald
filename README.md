@@ -31,6 +31,9 @@ Many moves will receive updated data. (Currently not done)
 Splash now does damage when raining. (Currently not done)
 Egg moves have been greatly expanded with many new Pokemon being able to learn many new moves. (Currently not done)
 All starters have been added to a special location post-Champion. (Currently not done)
+Ghost type moves are now special and Dark type moves are now physical. (Currently not done)
+Running is now allowed indoors.
+Each badge increases obedience levels like Gen 5+.
 
 ## Additions
 
@@ -49,3 +52,4 @@ Certain legendary Pokemon have received new events in game. (Currently not done)
 Event only items can be received through in game events post-E4. (Currently not done)
 Volt Tackle is now an egg move for Pichu. Can still be obtained by Light Ball. (Currently not done)
 Castform will now change into its rocky form during a sandstorm. (Currently not done, needs sprite)
+Using up a repel will cause a message to reuse it like in Gen 5+. (Currently not done)
