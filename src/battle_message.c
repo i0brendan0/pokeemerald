@@ -1268,7 +1268,7 @@ static const u8 sATypeMove_Table[][NUMBER_OF_MON_TYPES - 1] =
     [TYPE_PSYCHIC]  = _("a PSYCHIC move"),
     [TYPE_ICE]      = _("an ICE move"),
     [TYPE_DRAGON]   = _("a DRAGON move"),
-    [TYPE_DARK]     = _("a DARK move")
+    [TYPE_DARK]     = _("a DARK move"),
     [TYPE_FAIRY]    = _("a FAIRY move")
 };
 
