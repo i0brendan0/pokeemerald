@@ -7,8 +7,6 @@
 
 This is a hack of Pokémon Emerald.
 
-To set up the repository, see [INSTALL.md](INSTALL.md).
-
 
 ## Changes
 
@@ -54,3 +52,4 @@ To set up the repository, see [INSTALL.md](INSTALL.md).
 * Volt Tackle is now an egg move for Pichu. Can still be obtained by Light Ball. (Currently not done)
 * Castform will now change into its rocky form during a sandstorm. (Currently not done, needs sprite)
 * Using up a repel will cause a message to reuse it like in Gen 5+. (Currently not done)
+* Certain Pokemon will receive a boost and a decrease if they hold a specific item. (Currently not done)
