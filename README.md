@@ -24,12 +24,12 @@ This is a hack of Pokémon Emerald.
 * Unobtainable Hoenn Pokemon have returned to the routes they used to be on. (Currently not done)
 * Pokemon that evolve by trading will now use a special item to evolve. (Currently not done)
 * Some Pokemon will have new types to them. (Currently not done)
-* Castform will now show its shiny color if it changes form.
+* Castform will now show its shiny color if it changes form. (Shiny palettes made by me, may not be 100% accurate)
 * Many moves will receive updated data. (Currently not done)
 * Splash now does damage when raining. (Currently not done)
 * Egg moves have been greatly expanded with many new Pokemon being able to learn many new moves. (Currently not done)
 * All starters have been added to a special location post-Champion. (Currently not done)
-* Ghost type moves are now special and Dark type moves are now physical. (Currently not done)
+* Ghost type moves are now special and Dark type moves are now physical.
 * Running is now allowed indoors.
 * Each badge increases obedience levels like Gen 5+.
 

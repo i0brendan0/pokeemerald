@@ -1258,7 +1258,7 @@ static const u8 sATypeMove_Table[][NUMBER_OF_MON_TYPES - 1] =
     [TYPE_GROUND]   = _("a GROUND move"),
     [TYPE_ROCK]     = _("a ROCK move"),
     [TYPE_BUG]      = _("a BUG move"),
-    [TYPE_GHOST]    = _("a GHOST move"),
+    [TYPE_DARK]     = _("a DARK move"),
     [TYPE_STEEL]    = _("a STEEL move"),
     [TYPE_MYSTERY]  = _("a ??? move"),
     [TYPE_FIRE]     = _("a FIRE move"),
@@ -1268,7 +1268,7 @@ static const u8 sATypeMove_Table[][NUMBER_OF_MON_TYPES - 1] =
     [TYPE_PSYCHIC]  = _("a PSYCHIC move"),
     [TYPE_ICE]      = _("an ICE move"),
     [TYPE_DRAGON]   = _("a DRAGON move"),
-    [TYPE_DARK]     = _("a DARK move"),
+    [TYPE_GHOST]    = _("a GHOST move"),
     [TYPE_FAIRY]    = _("a FAIRY move")
 };
 

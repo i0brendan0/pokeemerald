@@ -9570,6 +9570,10 @@ static void Cmd_pickup(void)
                         if (k == ITEM_HP_UP)
                         {
                             k = (Random() % 6) + ITEM_HP_UP;
+							if (k == ITEM_RARE_CANDY)
+							{
+								k += 2; // skip rare candy and pp up
+							}
                         }
                         SetMonData(&gPlayerParty[i], MON_DATA_HELD_ITEM, &k);
                         break;

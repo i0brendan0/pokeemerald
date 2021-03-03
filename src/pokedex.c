@@ -1383,7 +1383,7 @@ static const struct SearchOptionText sDexSearchTypeOptions[NUMBER_OF_MON_TYPES +
     {gText_DexEmptyString, gTypeNames[TYPE_GROUND]},
     {gText_DexEmptyString, gTypeNames[TYPE_ROCK]},
     {gText_DexEmptyString, gTypeNames[TYPE_BUG]},
-    {gText_DexEmptyString, gTypeNames[TYPE_GHOST]},
+    {gText_DexEmptyString, gTypeNames[TYPE_DARK]},
     {gText_DexEmptyString, gTypeNames[TYPE_STEEL]},
     {gText_DexEmptyString, gTypeNames[TYPE_FIRE]},
     {gText_DexEmptyString, gTypeNames[TYPE_WATER]},
@@ -1392,7 +1392,7 @@ static const struct SearchOptionText sDexSearchTypeOptions[NUMBER_OF_MON_TYPES +
     {gText_DexEmptyString, gTypeNames[TYPE_PSYCHIC]},
     {gText_DexEmptyString, gTypeNames[TYPE_ICE]},
     {gText_DexEmptyString, gTypeNames[TYPE_DRAGON]},
-    {gText_DexEmptyString, gTypeNames[TYPE_DARK]},
+    {gText_DexEmptyString, gTypeNames[TYPE_GHOST]},
     {gText_DexEmptyString, gTypeNames[TYPE_FAIRY]},
     {},
 };
@@ -1418,7 +1418,7 @@ static const u8 sDexSearchTypeIds[NUMBER_OF_MON_TYPES] =
     TYPE_GROUND,
     TYPE_ROCK,
     TYPE_BUG,
-    TYPE_GHOST,
+    TYPE_DARK,
     TYPE_STEEL,
     TYPE_FIRE,
     TYPE_WATER,
@@ -1427,7 +1427,7 @@ static const u8 sDexSearchTypeIds[NUMBER_OF_MON_TYPES] =
     TYPE_PSYCHIC,
     TYPE_ICE,
     TYPE_DRAGON,
-    TYPE_DARK,
+    TYPE_GHOST,
     TYPE_FAIRY,
 };
 

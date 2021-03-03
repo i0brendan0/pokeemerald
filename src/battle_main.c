@@ -460,7 +460,7 @@ const u8 gTypeNames[NUMBER_OF_MON_TYPES][TYPE_NAME_LENGTH + 1] =
     _("GROUND"),
     _("ROCK"),
     _("BUG"),
-    _("GHOST"),
+    _("DARK"),
     _("STEEL"),
     _("???"),
     _("FIRE"),
@@ -470,7 +470,7 @@ const u8 gTypeNames[NUMBER_OF_MON_TYPES][TYPE_NAME_LENGTH + 1] =
     _("PSYCHC"),
     _("ICE"),
     _("DRAGON"),
-    _("DARK"),
+    _("GHOST"),
     _("FAIRY"),
 };
 
