@@ -782,7 +782,7 @@ static const u16 sPickupItems[] =
     ITEM_GREAT_BALL,
     ITEM_REPEL,
     ITEM_ESCAPE_ROPE,
-    ITEM_X_ATTACK,
+    ITEM_HEART_SCALE,
     ITEM_FULL_HEAL,
     ITEM_ULTRA_BALL,
     ITEM_HYPER_POTION,
@@ -792,8 +792,8 @@ static const u16 sPickupItems[] =
     ITEM_PP_UP,
     ITEM_FULL_RESTORE,
     ITEM_MAX_REVIVE,
-    ITEM_PP_MAX,
     ITEM_MAX_ELIXIR,
+    ITEM_MASTER_BALL,
 };
 
 static const u16 sRarePickupItems[] =
@@ -9575,6 +9575,10 @@ static void Cmd_pickup(void)
 								k += 2; // skip rare candy and pp up
 							}
                         }
+						else if (k == ITEM_PP_UP && !(Random() % 4))
+						{
+							k == ITEM_PP_MAX; // sometimes give pp max instead of pp up
+						}
                         SetMonData(&gPlayerParty[i], MON_DATA_HELD_ITEM, &k);
                         break;
                     }

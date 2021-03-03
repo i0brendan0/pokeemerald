@@ -21,7 +21,6 @@ This is a hack of Pokémon Emerald.
 * The Pickup table has been changed slightly. All vitamins and All TMs can be retrieved.
 * Pokemon with one ability may have a second new ability that changes or stays the same upon evolution. (Currently not done)
 * The main section of the bag has been increased. (Currently not done)
-* Unobtainable Hoenn Pokemon have returned to the routes they used to be on. (Currently not done)
 * Pokemon that evolve by trading will now use a special item to evolve. (Currently not done)
 * Some Pokemon will have new types to them. (Currently not done)
 * Castform will now show its shiny color if it changes form. (Shiny palettes made by me, may not be 100% accurate)
@@ -41,7 +40,6 @@ This is a hack of Pokémon Emerald.
 * Poison is now super effective to Bug.
 * Psychic is now not very effective to Bug.
 * Grass is now not very effective to Ice.
-* Over 50 more Pokemon added to the Hoenn regional dex. (Currently not done)
 * Over 10 new routes and 2 new towns added to the post-Champion. (Currently not done)
 * New abilities similar to Blaze/Torrent/Ovegrow/Swarm for the other types. (Currently not done and need more names)
 * More in game trades. (Currently not done)
@@ -53,3 +51,10 @@ This is a hack of Pokémon Emerald.
 * Castform will now change into its rocky form during a sandstorm. (Currently not done, needs sprite)
 * Using up a repel will cause a message to reuse it like in Gen 5+. (Currently not done)
 * Certain Pokemon will receive a boost and a decrease if they hold a specific item. (Currently not done)
+* More TMs. (Currently not done)
+
+## Pokemon
+
+* Unobtainable Hoenn Pokemon have returned to the routes they used to be on. (Currently not done)
+* Over 50 more Pokemon added to the Hoenn regional dex. (Currently not done)
+* Some of the beta Gold/Silver Pokemon have made it to Hoenn. 
