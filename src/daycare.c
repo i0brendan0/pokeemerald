@@ -786,13 +786,21 @@ static u16 DetermineEggSpeciesAndParentSlots(struct DayCare *daycare, u8 *parent
     }
 
     eggSpecies = GetEggSpecies(species[parentSlots[0]]);
-    if (eggSpecies == SPECIES_NIDORAN_F && daycare->offspringPersonality & EGG_GENDER_MALE)
+    if (eggSpecies == SPECIES_NIDORAN_F || eggSpecies == SPECIES_NIDORAN_M) && daycare->offspringPersonality & EGG_GENDER_MALE)
     {
         eggSpecies = SPECIES_NIDORAN_M;
     }
-    if (eggSpecies == SPECIES_ILLUMISE && daycare->offspringPersonality & EGG_GENDER_MALE)
+	else
+    {
+        eggSpecies = SPECIES_NIDORAN_F;
+    }
+    if ((eggSpecies == SPECIES_ILLUMISE || eggSpecies == SPECIES_VOLBEAT) && daycare->offspringPersonality & EGG_GENDER_MALE)
     {
         eggSpecies = SPECIES_VOLBEAT;
+    }
+	else
+    {
+        eggSpecies = SPECIES_ILLUMISE;
     }
 
     // Make Ditto the "mother" slot if the other daycare mon is male.

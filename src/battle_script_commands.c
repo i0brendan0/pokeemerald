@@ -1140,6 +1140,9 @@ static void Cmd_accuracycheck(void)
         if (WEATHER_HAS_EFFECT && gBattleWeather & WEATHER_SUN_ANY && gBattleMoves[move].effect == EFFECT_THUNDER)
             moveAcc = 50;
 
+        if (WEATHER_HAS_EFFECT && gBattleWeather & WEATHER_RAIN_ANY && gBattleMoves[move].effect == EFFECT_SPLASH)
+            moveAcc = 100;
+
         calc = sAccuracyStageRatios[buff].dividend * moveAcc;
         calc /= sAccuracyStageRatios[buff].divisor;
 
@@ -9587,7 +9590,7 @@ static void Cmd_pickup(void)
 						k = sRarePickupItems[lvlDivBy10 + (99 - rand)];
 						if (k == ITEM_TM01_FOCUS_PUNCH)
 						{
-							k = (Random() % 50) + ITEM_TM01_FOCUS_PUNCH;
+							k = (Random() % NUM_TECHNICAL_MACHINES) + ITEM_TM01_FOCUS_PUNCH; // random TM
 						}
                         SetMonData(&gPlayerParty[i], MON_DATA_HELD_ITEM, &k);
                         break;

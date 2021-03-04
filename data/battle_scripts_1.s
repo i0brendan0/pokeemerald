@@ -1193,6 +1193,18 @@ BattleScript_EffectSplash::
 	attackcanceler
 	attackstring
 	ppreduce
+	accuracycheck BattleScript_EffectSplashNoRain, ACC_CURR_MOVE
+	# fall through if it's raining
+	swapattackerwithtarget
+	weightdamagecalculation
+	swapattackerwithtarget
+	critcalc
+	damagecalc
+	typecalc
+	adjustnormaldamage
+	goto BattleScript_HitFromAtkAnimation
+	
+BattleScript_EffectSplashNoRain::
 	attackanimation
 	waitanimation
 	incrementgamestat GAME_STAT_USED_SPLASH
