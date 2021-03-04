@@ -40,8 +40,9 @@ This is a hack of Pokémon Emerald.
 
 * Snow is now an overworld weather that starts hail in battle. (Currently Unused)
 * Added the Snow Warning ability. (Currently Unused)
-* Gave a use for Cacophony. It does 50% more damage with sound moves and takes 25% less damage from sound moves. (Currently Unused)
+* Gave a use for Cacophony. It does 50% more damage with sound moves and takes 25% less damage from sound moves. (Currently Whismur family only)
 * Added the Fairy type and Fairy boost item. (Partially done)
+* Some Pokemon will have new types to them. (List is long and may not be final)
 
 
 ### Not Done Yet
@@ -51,7 +52,6 @@ This is a hack of Pokémon Emerald.
 * Certain Pokemon will receive a boost and a decrease if they hold a specific item.
 * Using up a repel will cause a message to reuse it like in Gen 5+.
 * Egg moves have been greatly expanded with many new Pokemon being able to learn many new moves.
-* Some Pokemon will have new types to them.
 * Pokemon that evolve by trading will now use a special item to evolve.
 * All starters have been added to a special location post-Champion.
 * Over 10 new routes and 2 new towns added to the post-Champion.
