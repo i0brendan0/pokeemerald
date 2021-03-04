@@ -1194,7 +1194,6 @@ BattleScript_EffectSplash::
 	attackstring
 	ppreduce
 	accuracycheck BattleScript_EffectSplashNoRain, ACC_CURR_MOVE
-	# fall through if it's raining
 	swapattackerwithtarget
 	weightdamagecalculation
 	swapattackerwithtarget
