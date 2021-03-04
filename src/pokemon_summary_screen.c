@@ -873,9 +873,9 @@ static const struct SpriteTemplate sSpriteTemplate_MoveTypes =
     .callback = SpriteCallbackDummy
 };
 
-#define TYPE_ICON_PAL_1 = (13)
-#define TYPE_ICON_PAL_2 = (14)
-#define TYPE_ICON_PAL_3 = (15)
+#define TYPE_ICON_PAL_1 13
+#define TYPE_ICON_PAL_2 14
+#define TYPE_ICON_PAL_3 15
 static const u8 sMoveTypeToOamPaletteNum[NUMBER_OF_MON_TYPES + CONTEST_CATEGORIES_COUNT] =
 {
     [TYPE_NORMAL] = TYPE_ICON_PAL_1,

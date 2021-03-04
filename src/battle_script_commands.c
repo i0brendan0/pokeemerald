@@ -1382,7 +1382,7 @@ static void Cmd_typecalc(void)
         {
             if (TYPE_EFFECT_ATK_TYPE(i) == TYPE_MIRACLE_EYE)
             {
-                if (gBattleMons[gBattlerTarget].status2 & STATUS2_MIRACLE_EYE && moveType == TYPE_PSYCHIC)
+                if (gBattleMons[gBattlerTarget].status2 & STATUS2_MIRACLE_EYE && moveType == TYPE_EFFECT_ATK_TYPE(i + 3))
 				{
 					i += 3;
                     continue;

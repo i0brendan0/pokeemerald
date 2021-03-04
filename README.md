@@ -25,12 +25,12 @@ This is a hack of Pokémon Emerald.
 * Eggs will hatch at level 1.
 * Nidoran M and Volbeat are now able to make Nidoran F and Illumise eggs.
 * Nidorina and Nidoqueen are able to breed.
-* Splash now does damage when raining based on the weight of the Pokemon using it. (Same table as Low Kick)
+* Splash now does damage when raining based on the weight of the Pokémon using it. (Same table as Low Kick)
 
 
 ### Not Done Yet
 
-* Pokemon with one ability may have a second new ability that changes or stays the same upon evolution.
+* Pokémon with one ability may have a second new ability that changes or stays the same upon evolution.
 * The main section of the bag has been increased.
 * Many moves will receive updated data.
 * Castform will now change into its rocky form during a sandstorm. (Needs sprite)
@@ -42,28 +42,28 @@ This is a hack of Pokémon Emerald.
 * Added the Snow Warning ability. (Currently Unused)
 * Gave a use for Cacophony. It does 50% more damage with sound moves and takes 25% less damage from sound moves. (Currently Whismur family only)
 * Added the Fairy type and Fairy boost item. (Partially done)
-* Some Pokemon will have new types to them. (List is long and may not be final)
+* Some Pokémon will have new types to them. (List is long and may not be final)
 
 
 ### Not Done Yet
 
 * More in game trades.
 * More TMs.
-* Certain Pokemon will receive a boost and a decrease if they hold a specific item.
+* Certain Pokémon will receive a boost and a decrease if they hold a specific item.
 * Using up a repel will cause a message to reuse it like in Gen 5+.
-* Egg moves have been greatly expanded with many new Pokemon being able to learn many new moves.
-* Pokemon that evolve by trading will now use a special item to evolve.
+* Egg moves have been greatly expanded with many new Pokémon being able to learn many new moves.
+* Pokémon that evolve by trading will now use a special item to evolve.
 * All starters have been added to a special location post-Champion.
 * Over 10 new routes and 2 new towns added to the post-Champion.
 * New abilities similar to Blaze/Torrent/Ovegrow/Swarm for the other types. (Needs more names)
 * An evolution stone shop has been added to XXX.
-* Certain legendary Pokemon have received new events in game.
+* Certain legendary Pokémon have received new events in game.
 * Event only items can be received through in game events post-E4.
 * Volt Tackle is now an egg move for Pichu. Can still be obtained by Light Ball.
 
 
-## Pokemon
+## Pokémon
 
-* Unobtainable Hoenn Pokemon have returned to the routes they used to be on.
-* Over 50 more Pokemon added to the Hoenn regional dex.
-* Some of the beta Gold/Silver Pokemon have made it to Hoenn.
+* Unobtainable Hoenn Pokémon have returned to the routes they used to be on.
+* Over 50 more Pokémon added to the Hoenn regional dex.
+* Some of the beta Gold/Silver Pokémon have made it to Hoenn.
