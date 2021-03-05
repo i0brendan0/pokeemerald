@@ -15,14 +15,14 @@ This is a hack of Pokémon Emerald.
 * Howl is added to sound moves.
 * Shininess has been increased to 64/65536.
 * The Pickup table has been changed slightly. All vitamins and All TMs can be retrieved.
-* Castform will now show its shiny color if it changes form. (Shiny palettes made by me, may not be 100% accurate)
+* Castform now shows its shiny color if it changes form. (Shiny palettes made by me, may not be 100% accurate)
 * Ghost type moves are now special and Dark type moves are now physical.
 * Running is now allowed indoors.
 * Each badge increases obedience levels like Gen 5+.
 * Poison is now super effective to Bug.
 * Psychic is now not very effective to Bug.
 * Grass is now not very effective to Ice.
-* Eggs will hatch at level 1.
+* Eggs now hatch at level 1.
 * Nidoran M and Volbeat are now able to make Nidoran F and Illumise eggs.
 * Nidorina and Nidoqueen are able to breed.
 * Splash now does damage when raining based on the weight of the Pokémon using it. (Same table as Low Kick)
@@ -43,6 +43,7 @@ This is a hack of Pokémon Emerald.
 * Gave a use for Cacophony. It does 50% more damage with sound moves and takes 25% less damage from sound moves. (Currently Whismur family only)
 * Added the Fairy type and Fairy boost item. (Partially done)
 * Some Pokémon will have new types to them. (List is long and may not be final)
+* Volt Tackle is now an egg move for Pichu. (Can still be obtained by Light Ball)
 
 
 ### Not Done Yet
@@ -59,7 +60,6 @@ This is a hack of Pokémon Emerald.
 * An evolution stone shop has been added to XXX.
 * Certain legendary Pokémon have received new events in game.
 * Event only items can be received through in game events post-E4.
-* Volt Tackle is now an egg move for Pichu. Can still be obtained by Light Ball.
 
 
 ## Pokémon

@@ -570,6 +570,7 @@ const u16 gEggMoves[] = {
               MOVE_ENCORE,
               MOVE_DOUBLE_SLAP,
               MOVE_WISH,
+              MOVE_VOLT_TACKLE,
               MOVE_CHARGE),
 
     egg_moves(CLEFFA,
