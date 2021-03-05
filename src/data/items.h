@@ -1174,7 +1174,7 @@ const struct Item gItems[] =
     {
         .name = _("MOON STONE"),
         .itemId = ITEM_MOON_STONE,
-        .price = 0,
+        .price = 2100,
         .description = sMoonStoneDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_PARTY_MENU,
@@ -4170,17 +4170,6 @@ const struct Item gItems[] =
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
     },
 
-    [ITEM_15C] =
-    {
-        .name = _("????????"),
-        .itemId = ITEM_NONE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_ITEMS,
-        .type = ITEM_USE_BAG_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
-    },
-
 // FireRed/LeafGreen key items
 
     [ITEM_OAKS_PARCEL] =
@@ -4489,10 +4478,9 @@ const struct Item gItems[] =
         .name = _("RUBY"),
         .itemId = ITEM_RUBY,
         .price = 0,
+        .holdEffect = HOLD_EFFECT_RUBY,
         .description = sRubyDesc,
-        .importance = 1,
-        .unk19 = 1,
-        .pocket = POCKET_KEY_ITEMS,
+        .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
     },
@@ -4502,10 +4490,21 @@ const struct Item gItems[] =
         .name = _("SAPPHIRE"),
         .itemId = ITEM_SAPPHIRE,
         .price = 0,
+        .holdEffect = HOLD_EFFECT_SAPPHIRE,
         .description = sSapphireDesc,
-        .importance = 1,
-        .unk19 = 1,
-        .pocket = POCKET_KEY_ITEMS,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
+    [ITEM_EMERALD] =
+    {
+        .name = _("EMERALD"),
+        .itemId = ITEM_EMERALD,
+        .price = 0,
+        .holdEffect = HOLD_EFFECT_EMERALD,
+        .description = sEmeraldDesc,
+        .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
     },

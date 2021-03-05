@@ -1938,6 +1938,13 @@ static const u8 sHoldEffectToType[][2] =
     {HOLD_EFFECT_FAIRY_POWER, TYPE_FAIRY},
 };
 
+static const u16 sLegendaryToItem[][2] =
+{
+    {SPECIES_GROUDON, HOLD_EFFECT_RUBY},
+    {SPECIES_KYOGRE, HOLD_EFFECT_SAPPHIRE},
+    {SPECIES_RAYQUAZA, HOLD_EFFECT_EMERALD},
+};
+
 const struct SpriteTemplate gBattlerSpriteTemplates[MAX_BATTLERS_COUNT] =
 {
     [B_POSITION_PLAYER_LEFT] = {
@@ -3206,6 +3213,29 @@ s32 CalculateBaseDamage(struct BattlePokemon *attacker, struct BattlePokemon *de
         gBattleMovePower = (150 * gBattleMovePower) / 100;
 	if (defender->ability == ABILITY_CACOPHONY && (gCurrentMove == MOVE_UPROAR || gCurrentMove == MOVE_HYPER_VOICE || gCurrentMove == MOVE_SNORE))
         gBattleMovePower = (75 * gBattleMovePower) / 100;
+	// provides a boost in damage for specific legendary pokemon
+	// but also makes them less resistant to damage
+    for (i = 0; i < ARRAY_COUNT(sLegendaryToItem); i++)
+    {
+        if (attacker->species == sLegendaryToItem[i][0]
+        && attackerHoldEffect == sLegendaryToItem[i][1])
+        {
+			attack = (150 * attack) / 100;
+			spAttack = (150 * spAttack) / 100;
+            break;
+        }
+    }
+
+    for (i = 0; i < ARRAY_COUNT(sLegendaryToItem); i++)
+    {
+        if (defender->species == sLegendaryToItem[i][0]
+        && defenderHoldEffect == sLegendaryToItem[i][1])
+        {
+			defense = (75 * defense) / 100;
+			spDefense = (75 * spDefense) / 100;
+            break;
+        }
+    }
 
     if (IS_TYPE_PHYSICAL(type))
     {

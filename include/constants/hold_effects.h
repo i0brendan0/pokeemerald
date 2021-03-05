@@ -69,5 +69,8 @@
 #define HOLD_EFFECT_THICK_CLUB     65
 #define HOLD_EFFECT_STICK          66
 #define HOLD_EFFECT_FAIRY_POWER    67
+#define HOLD_EFFECT_RUBY           68
+#define HOLD_EFFECT_SAPPHIRE       69
+#define HOLD_EFFECT_EMERALD        70
 
 #endif // GUARD_HOLD_EFFECTS_H

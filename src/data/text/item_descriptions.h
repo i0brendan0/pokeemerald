@@ -1539,6 +1539,11 @@ static const u8 sSapphireDesc[] = _(
     "that symbolizes\n"
     "honesty.");
 
+static const u8 sEmeraldDesc[] = _(
+    "A bright green gem\n"
+    "that symbolizes\n"
+    "courage.");
+
 // Emerald-specific key items
 static const u8 sMagmaEmblemDesc[] = _(
     "A medal-like item in\n"
