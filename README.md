@@ -43,6 +43,7 @@ This is a hack of Pokémon Emerald.
 * Gave a use for Cacophony. It does 50% more damage with sound moves and takes 25% less damage from sound moves. (Currently Whismur family only)
 * Added the Fairy type and Fairy boost item. (Partially done)
 * Some Pokémon will have new types to them. (List is long and may not be final)
+* Pokémon that evolve by trading will now use a special item to evolve.
 * Volt Tackle is now an egg move for Pichu. (Can still be obtained by Light Ball)
 * Some legendary Pokémon now have items specifically for them.
 
@@ -53,7 +54,6 @@ This is a hack of Pokémon Emerald.
 * More TMs.
 * Using up a repel will cause a message to reuse it like in Gen 5+.
 * Egg moves have been greatly expanded with many new Pokémon being able to learn many new moves.
-* Pokémon that evolve by trading will now use a special item to evolve.
 * All starters have been added to a special location post-Champion.
 * Over 10 new routes and 2 new towns added to the post-Champion.
 * New abilities similar to Blaze/Torrent/Ovegrow/Swarm for the other types. (Needs more names)
