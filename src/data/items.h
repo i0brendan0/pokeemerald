@@ -2774,12 +2774,13 @@ const struct Item gItems[] =
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
     },
 
-    [ITEM_0E2] =
+    [ITEM_PINK_BOW] =
     {
-        .name = _("????????"),
-        .itemId = ITEM_NONE,
-        .price = 0,
-        .description = sDummyDesc,
+        .name = _("PINK BOW"),
+        .itemId = ITEM_PINK_BOW,
+        .price = 100,
+        .holdEffect = HOLD_EFFECT_FAIRY_BOOST,
+        .description = sPinkBowDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,

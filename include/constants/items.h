@@ -251,7 +251,7 @@
 #define ITEM_METAL_POWDER 223
 #define ITEM_THICK_CLUB 224
 #define ITEM_STICK 225
-#define ITEM_0E2 226 // 37 FAIRY BOOST
+#define ITEM_PINK_BOW 226
 #define ITEM_0E3 227 // 38
 #define ITEM_0E4 228 // 39
 #define ITEM_0E5 229 // 40

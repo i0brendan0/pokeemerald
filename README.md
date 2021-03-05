@@ -41,7 +41,7 @@ This is a hack of Pokémon Emerald.
 * Snow is now an overworld weather that starts hail in battle. (Currently Unused)
 * Added the Snow Warning ability. (Currently Unused)
 * Gave a use for Cacophony. It does 50% more damage with sound moves and takes 25% less damage from sound moves. (Currently Whismur family only)
-* Added the Fairy type and Fairy boost item. (Partially done)
+* Added the Fairy type and Fairy boost item.
 * Some Pokémon will have new types to them. (List is long and may not be final)
 * Pokémon that evolve by trading will now use a special item to evolve.
 * Volt Tackle is now an egg move for Pichu. (Can still be obtained by Light Ball)
