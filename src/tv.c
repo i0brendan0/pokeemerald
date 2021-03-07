@@ -205,9 +205,33 @@ static const struct {
         .location = MAP_NUM(ROUTE114),
     },
     {
+        .species = SPECIES_SURSKIT,
+        .moves = {MOVE_BUBBLE, MOVE_QUICK_ATTACK, MOVE_DOUBLE_TEAM, MOVE_MUD_SPORT},
+        .level = 15, 
+        .location = MAP_NUM(ROUTE114),
+    },
+    {
+        .species = SPECIES_SKITTY,
+        .moves = {MOVE_GROWL, MOVE_TACKLE, MOVE_TAIL_WHIP, MOVE_ATTRACT},
+        .level = 8, 
+        .location = MAP_NUM(ROUTE116),
+    },
+    {
+        .species = SPECIES_SKITTY,
+        .moves = {MOVE_GROWL, MOVE_TACKLE, MOVE_TAIL_WHIP, MOVE_SAFEGUARD},
+        .level = 15, 
+        .location = MAP_NUM(ROUTE116),
+    },
+    {
         .species = SPECIES_SEEDOT,
         .moves = {MOVE_HARDEN, MOVE_GROWTH, MOVE_NATURE_POWER, MOVE_LEECH_SEED},
         .level = 13, 
+        .location = MAP_NUM(ROUTE117),
+    },
+    {
+        .species = SPECIES_SURSKIT,
+        .moves = {MOVE_BUBBLE, MOVE_QUICK_ATTACK, MOVE_ATTRACT, MOVE_MUD_SPORT},
+        .level = 15, 
         .location = MAP_NUM(ROUTE117),
     },
     {
@@ -217,10 +241,10 @@ static const struct {
         .location = MAP_NUM(ROUTE120),
     },
     {
-        .species = SPECIES_SKITTY,
-        .moves = {MOVE_GROWL, MOVE_TACKLE, MOVE_TAIL_WHIP, MOVE_ATTRACT},
-        .level = 8, 
-        .location = MAP_NUM(ROUTE116),
+        .species = SPECIES_SURSKIT,
+        .moves = {MOVE_BUBBLE, MOVE_QUICK_ATTACK, MOVE_FACADE, MOVE_MUD_SPORT},
+        .level = 28, 
+        .location = MAP_NUM(ROUTE120),
     }
 };
 

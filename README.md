@@ -26,6 +26,7 @@ This is a hack of Pokémon Emerald.
 * Nidoran M and Volbeat are now able to make Nidoran F and Illumise eggs.
 * Nidorina and Nidoqueen are able to breed.
 * Splash now does damage when raining based on the weight of the Pokémon using it. (Same table as Low Kick)
+* Swarms now include more Pokémon to choose from and more locations to find them. (Currently just Surskit from RS)
 
 
 ### Not Done Yet
