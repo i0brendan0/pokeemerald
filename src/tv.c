@@ -199,6 +199,12 @@ static const struct {
         .location = MAP_NUM(ROUTE102)
     },
     {
+        .species = SPECIES_SURSKIT,
+        .moves = {MOVE_BUBBLE, MOVE_WATER_PULSE, MOVE_MUD_SPORT},
+        .level = 3, 
+        .location = MAP_NUM(ROUTE102),
+    },
+    {
         .species = SPECIES_NUZLEAF,
         .moves = {MOVE_HARDEN, MOVE_GROWTH, MOVE_NATURE_POWER, MOVE_LEECH_SEED},
         .level = 15, 

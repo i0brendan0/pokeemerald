@@ -2780,6 +2780,7 @@ const struct Item gItems[] =
         .itemId = ITEM_PINK_BOW,
         .price = 100,
         .holdEffect = HOLD_EFFECT_FAIRY_POWER,
+        .holdEffectParam = 10,
         .description = sPinkBowDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
