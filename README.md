@@ -27,6 +27,7 @@ This is a hack of Pokémon Emerald.
 * Nidorina and Nidoqueen are able to breed.
 * Splash now does damage when raining based on the weight of the Pokémon using it. (Same table as Low Kick)
 * Swarms now include more Pokémon to choose from and more locations to find them. (Currently just Surskit from RS)
+* Restrictions on Mew and Deoxys has been lifted. All Mews and Deoxys will obey the trainer if possible.
 
 
 ### Not Done Yet
