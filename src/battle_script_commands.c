@@ -9561,10 +9561,10 @@ static void Cmd_pickup(void)
                 s32 j;
                 s32 rand = Random() % 100;
                 u8 lvlDivBy10 = (GetMonData(&gPlayerParty[i], MON_DATA_LEVEL) - 1) / 10;
+                u16 k;
                 if (lvlDivBy10 > 9)
                     lvlDivBy10 = 9;
 
-                u16 k;
                 for (j = 0; j < (int)ARRAY_COUNT(sPickupProbabilities); j++)
                 {
                     if (sPickupProbabilities[j] > rand)
