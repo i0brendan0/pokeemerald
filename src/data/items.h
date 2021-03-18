@@ -2787,10 +2787,10 @@ const struct Item gItems[] =
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
     },
 
-    [ITEM_0E3] =
+    [ITEM_BLUE_FEATHER] =
     {
-        .itemId = ITEM_NONE,
         .name = _("BLUE FEATHER"),
+        .itemId = ITEM_BLUE_FEATHER,
         .price = 0,
         .holdEffect = HOLD_EFFECT_BLUE_FEATHER,
         .description = sDummyDesc,
@@ -2799,10 +2799,10 @@ const struct Item gItems[] =
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
     },
 
-    [ITEM_0E4] =
+    [ITEM_YELLOW_FEATHER] =
     {
-        .itemId = ITEM_NONE,
         .name = _("YELLOWFEATHR"),
+        .itemId = ITEM_YELLOW_FEATHER,
         .price = 0,
         .holdEffect = HOLD_EFFECT_YELLOW_FEATHER,
         .description = sDummyDesc,
@@ -2811,10 +2811,10 @@ const struct Item gItems[] =
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
     },
 
-    [ITEM_0E5] =
+    [ITEM_RED_FEATHER] =
     {
-        .itemId = ITEM_NONE,
         .name = _("RED FEATHER"),
+        .itemId = ITEM_RED_FEATHER,
         .price = 0,
         .holdEffect = HOLD_EFFECT_RED_FEATHER,
         .description = sDummyDesc,
@@ -2823,10 +2823,10 @@ const struct Item gItems[] =
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
     },
 
-    [ITEM_0E6] =
+    [ITEM_BERSERK_GENE] =
     {
-        .itemId = ITEM_NONE,
         .name = _("BERSERK GENE"),
+        .itemId = ITEM_BERSERK_GENE,
         .price = 0,
         .holdEffect = HOLD_EFFECT_BERSERK_GENE,
         .description = sDummyDesc,
@@ -2835,10 +2835,10 @@ const struct Item gItems[] =
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
     },
 
-    [ITEM_0E7] =
+    [ITEM_MUSIC_BOX] =
     {
-        .itemId = ITEM_NONE,
         .name = _("MUSIC BOX"),
+        .itemId = ITEM_MUSIC_BOX,
         .price = 0,
         .holdEffect = HOLD_EFFECT_MUSIC_BOX,
         .description = sDummyDesc,
@@ -2847,10 +2847,10 @@ const struct Item gItems[] =
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
     },
 
-    [ITEM_0E8] =
+    [ITEM_RADIANCE_LOOP] =
     {
-        .itemId = ITEM_NONE,
         .name = _("RADIANCELOOP"),
+        .itemId = ITEM_RADIANCE_LOOP,
         .price = 0,
         .holdEffect = HOLD_EFFECT_RADIANCE_LOOP,
         .description = sDummyDesc,
@@ -2859,10 +2859,10 @@ const struct Item gItems[] =
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
     },
 
-    [ITEM_0E9] =
+    [ITEM_WILDFIRE_LOOP] =
     {
-        .itemId = ITEM_NONE,
         .name = _("WILDFIRELOOP"),
+        .itemId = ITEM_WILDFIRE_LOOP,
         .price = 0,
         .holdEffect = HOLD_EFFECT_WILDFIRE_LOOP,
         .description = sDummyDesc,
@@ -2871,10 +2871,10 @@ const struct Item gItems[] =
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
     },
 
-    [ITEM_0EA] =
+    [ITEM_TEMPEST_LOOP] =
     {
-        .itemId = ITEM_NONE,
         .name = _("TEMPEST LOOP"),
+        .itemId = ITEM_TEMPEST_LOOP,
         .price = 0,
         .holdEffect = HOLD_EFFECT_TEMPEST_LOOP,
         .description = sDummyDesc,
@@ -2883,10 +2883,10 @@ const struct Item gItems[] =
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
     },
 
-    [ITEM_0EB] =
+    [ITEM_TIDAL_BELL] =
     {
-        .itemId = ITEM_NONE,
         .name = _("TIDAL BELL"),
+        .itemId = ITEM_TIDAL_BELL,
         .price = 0,
         .holdEffect = HOLD_EFFECT_TIDAL_BELL,
         .description = sDummyDesc,
@@ -2895,10 +2895,10 @@ const struct Item gItems[] =
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
     },
 
-    [ITEM_0EC] =
+    [ITEM_CLEAR_BELL] =
     {
-        .itemId = ITEM_NONE,
         .name = _("CLEAR BELL"),
+        .itemId = ITEM_CLEAR_BELL,
         .price = 0,
         .holdEffect = HOLD_EFFECT_CLEAR_BELL,
         .description = sDummyDesc,
@@ -2907,10 +2907,10 @@ const struct Item gItems[] =
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
     },
 
-    [ITEM_0ED] =
+    [ITEM_GS_BALL] =
     {
-        .itemId = ITEM_NONE,
         .name = _("GS BALL"),
+        .itemId = ITEM_GS_BALL,
         .price = 0,
         .holdEffect = HOLD_EFFECT_GS_BALL,
         .description = sDummyDesc,
@@ -2919,10 +2919,10 @@ const struct Item gItems[] =
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
     },
 
-    [ITEM_0EE] =
+    [ITEM_ROCK_PART] =
     {
-        .itemId = ITEM_NONE,
         .name = _("ROCK PART"),
+        .itemId = ITEM_ROCK_PART,
         .price = 0,
         .holdEffect = HOLD_EFFECT_ROCK_PART,
         .description = sDummyDesc,
@@ -2931,10 +2931,10 @@ const struct Item gItems[] =
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
     },
 
-    [ITEM_0EF] =
+    [ITEM_ICE_PART] =
     {
-        .itemId = ITEM_NONE,
         .name = _("ICE PART"),
+        .itemId = ITEM_ICE_PART,
         .price = 0,
         .holdEffect = HOLD_EFFECT_ICE_PART,
         .description = sDummyDesc,
@@ -2943,10 +2943,10 @@ const struct Item gItems[] =
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
     },
 
-    [ITEM_0F0] =
+    [ITEM_STEEL_PART] =
     {
-        .itemId = ITEM_NONE,
         .name = _("STEEL PART"),
+        .itemId = ITEM_STEEL_PART,
         .price = 0,
         .holdEffect = HOLD_EFFECT_STEEL_PART,
         .description = sDummyDesc,
@@ -2955,10 +2955,10 @@ const struct Item gItems[] =
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
     },
 
-    [ITEM_0F1] =
+    [ITEM_WISH_STONE] =
     {
-        .itemId = ITEM_NONE,
         .name = _("WISH STONE"),
+        .itemId = ITEM_WISH_STONE,
         .price = 0,
         .holdEffect = HOLD_EFFECT_WISH_STONE,
         .description = sDummyDesc,
@@ -2967,10 +2967,10 @@ const struct Item gItems[] =
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
     },
 
-    [ITEM_0F2] =
+    [ITEM_SPACE_GLOBE] =
     {
-        .itemId = ITEM_NONE,
         .name = _("SPACE GLOBE"),
+        .itemId = ITEM_SPACE_GLOBE,
         .price = 0,
         .holdEffect = HOLD_EFFECT_SPACE_GLOBE,
         .description = sDummyDesc,
