@@ -111,29 +111,29 @@
 #define ITEM_WATER_STONE 97
 #define ITEM_LEAF_STONE 98
 #define ITEM_TRADE_STONE 99
-#define ITEM_064 100 // 21
-#define ITEM_065 101 // 22
-#define ITEM_066 102 // 23
+#define ITEM_064 100 // 20
+#define ITEM_065 101 // 21
+#define ITEM_066 102 // 22
 
 // Unusable
 #define ITEM_TINY_MUSHROOM 103
 #define ITEM_BIG_MUSHROOM 104
-#define ITEM_069 105   //24
+#define ITEM_069 105   //23
 #define ITEM_PEARL 106
 #define ITEM_BIG_PEARL 107
 #define ITEM_STARDUST 108
 #define ITEM_STAR_PIECE 109
 #define ITEM_NUGGET 110
 #define ITEM_HEART_SCALE 111
-#define ITEM_070 112 // 25
-#define ITEM_071 113 // 26
-#define ITEM_072 114 // 27
-#define ITEM_073 115 // 28
-#define ITEM_074 116 // 29
-#define ITEM_075 117 // 30
-#define ITEM_076 118 // 31
-#define ITEM_077 119 // 32
-#define ITEM_078 120 // 33
+#define ITEM_070 112 // 24
+#define ITEM_071 113 // 25
+#define ITEM_072 114 // 26
+#define ITEM_073 115 // 27
+#define ITEM_074 116 // 28
+#define ITEM_075 117 // 29
+#define ITEM_076 118 // 30
+#define ITEM_077 119 // 31
+#define ITEM_078 120 // 32
 
 // Mails
 #define ITEM_ORANGE_MAIL 121
@@ -199,9 +199,9 @@
 #define FIRST_BERRY_INDEX ITEM_CHERI_BERRY
 #define LAST_BERRY_INDEX  ITEM_ENIGMA_BERRY
 
-#define ITEM_0B0 176 // 34
-#define ITEM_0B1 177 // 35
-#define ITEM_0B2 178 // 36
+#define ITEM_0B0 176 // 33
+#define ITEM_0B1 177 // 34
+#define ITEM_0B2 178 // 35
 
 // Battle Held items
 #define ITEM_BRIGHT_POWDER 179
@@ -252,33 +252,33 @@
 #define ITEM_THICK_CLUB 224
 #define ITEM_STICK 225
 #define ITEM_PINK_BOW 226
-#define ITEM_0E3 227 // 38
-#define ITEM_0E4 228 // 39
-#define ITEM_0E5 229 // 40
-#define ITEM_0E6 230 // 41
-#define ITEM_0E7 231 // 42
-#define ITEM_0E8 232 // 43
-#define ITEM_0E9 233 // 44
-#define ITEM_0EA 234 // 45
-#define ITEM_0EB 235 // 46
-#define ITEM_0EC 236 // 47
-#define ITEM_0ED 237 // 48
-#define ITEM_0EE 238 // 49
-#define ITEM_0EF 239 // 50
-#define ITEM_0F0 240 // 51
-#define ITEM_0F1 241 // 52
-#define ITEM_0F2 242 // 53
-#define ITEM_0F3 243 // 54
-#define ITEM_0F4 244 // 55
-#define ITEM_0F5 245 // 56
-#define ITEM_0F6 246 // 57
-#define ITEM_0F7 247 // 58
-#define ITEM_0F8 248 // 59
-#define ITEM_0F9 249 // 60
-#define ITEM_0FA 250 // 61
-#define ITEM_0FB 251 // 62
-#define ITEM_0FC 252 // 63
-#define ITEM_0FD 253 // 64
+#define ITEM_BLUE_FEATHER 227
+#define ITEM_YELLOW_FEATHER 228
+#define ITEM_RED_FEATHER 229
+#define ITEM_BERSERK_GENE 230 // need image
+#define ITEM_MUSIC_BOX 231 // need image
+#define ITEM_RADIANCE_LOOP 232
+#define ITEM_WILDFIRE_LOOP 233
+#define ITEM_TEMPEST_LOOP 234
+#define ITEM_TIDAL_BELL 235
+#define ITEM_CLEAR_BELL 236
+#define ITEM_GS_BALL 237 // need image
+#define ITEM_ROCK_PART 238
+#define ITEM_ICE_PART 239
+#define ITEM_STEEL_PART 240
+#define ITEM_WISH_STONE 241 // need image
+#define ITEM_SPACE_GLOBE 242
+#define ITEM_0F3 243 // 36
+#define ITEM_0F4 244 // 37
+#define ITEM_0F5 245 // 38
+#define ITEM_0F6 246 // 39
+#define ITEM_0F7 247 // 40
+#define ITEM_0F8 248 // 41
+#define ITEM_0F9 249 // 42
+#define ITEM_0FA 250 // 43
+#define ITEM_0FB 251 // 44
+#define ITEM_0FC 252 // 45
+#define ITEM_0FD 253 // 46
 
 // Contest held items
 #define ITEM_RED_SCARF 254
@@ -296,7 +296,7 @@
 #define ITEM_SUPER_ROD 264
 #define ITEM_SS_TICKET 265
 #define ITEM_CONTEST_PASS 266
-#define ITEM_10B 267           // 65
+#define ITEM_10B 267           // 47
 #define ITEM_WAILMER_PAIL 268
 #define ITEM_DEVON_GOODS 269
 #define ITEM_SOOT_SACK 270
@@ -527,7 +527,7 @@
 #define ITEM_HM08_DIVE ITEM_HM08
 
 // Unknown
-#define ITEM_15B 347 // 67
+#define ITEM_15B 347 // 48
 
 // FireRed/LeafGreen
 #define ITEM_OAKS_PARCEL   348

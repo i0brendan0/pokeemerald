@@ -589,19 +589,19 @@ struct StatFractions
 
 static const struct StatFractions sAccuracyStageRatios[] =
 {
-    { 33, 100}, // -6
-    { 36, 100}, // -5
-    { 43, 100}, // -4
-    { 50, 100}, // -3
-    { 60, 100}, // -2
-    { 75, 100}, // -1
-    {  1,   1}, //  0
-    {133, 100}, // +1
-    {166, 100}, // +2
-    {  2,   1}, // +3
-    {233, 100}, // +4
-    {133,  50}, // +5
-    {  3,   1}, // +6
+    { 60, 180}, // -6 3/9
+    { 60, 160}, // -5 3/8
+    { 60, 140}, // -4 3/7
+    { 50, 100}, // -3 3/6
+    { 60, 100}, // -2 3/5
+    { 75, 100}, // -1 3/4
+    {  1,   1}, //  0 3/3
+    {160, 120}, // +1 4/3
+    {200, 120}, // +2 5/3
+    {  2,   1}, // +3 6/3
+    {210,  90}, // +4 7/3
+    {160,  60}, // +5 8/3
+    {  3,   1}, // +6 9/3
 };
 
 // The chance is 1/N for each stage.
@@ -765,14 +765,15 @@ static const u16 sNaturePowerMoves[] =
     [BATTLE_TERRAIN_PLAIN]      = MOVE_SWIFT
 };
 
-// format: min. weight (hectograms), base power
+#define KG2HG(num) (num * 10)
+// format: max. weight (hectograms), base power
 static const u16 sWeightToDamageTable[] =
 {
-    100, 20,
-    250, 40,
-    500, 60,
-    1000, 80,
-    2000, 100,
+     KG2HG(10),  20,
+     KG2HG(25),  40,
+     KG2HG(50),  60,
+    KG2HG(100),  80,
+    KG2HG(200), 100,
     0xFFFF, 0xFFFF
 };
 
@@ -9659,12 +9660,12 @@ static void Cmd_pickup(void)
                             k = (Random() % 6) + ITEM_HP_UP;
 							if (k == ITEM_RARE_CANDY)
 							{
-								k += 2; // skip rare candy and pp up
+								k = ITEM_ZINC;
 							}
                         }
 						else if (k == ITEM_PP_UP && !(Random() % 4))
 						{
-							k == ITEM_PP_MAX; // sometimes give pp max instead of pp up
+							k = ITEM_PP_MAX; // sometimes give pp max instead of pp up
 						}
                         SetMonData(&gPlayerParty[i], MON_DATA_HELD_ITEM, &k);
                         break;

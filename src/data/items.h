@@ -2789,9 +2789,10 @@ const struct Item gItems[] =
 
     [ITEM_0E3] =
     {
-        .name = _("????????"),
         .itemId = ITEM_NONE,
+        .name = _("BLUE FEATHER"),
         .price = 0,
+        .holdEffect = HOLD_EFFECT_BLUE_FEATHER,
         .description = sDummyDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
@@ -2800,9 +2801,10 @@ const struct Item gItems[] =
 
     [ITEM_0E4] =
     {
-        .name = _("????????"),
         .itemId = ITEM_NONE,
+        .name = _("YELLOWFEATHR"),
         .price = 0,
+        .holdEffect = HOLD_EFFECT_YELLOW_FEATHER,
         .description = sDummyDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
@@ -2811,9 +2813,10 @@ const struct Item gItems[] =
 
     [ITEM_0E5] =
     {
-        .name = _("????????"),
         .itemId = ITEM_NONE,
+        .name = _("RED FEATHER"),
         .price = 0,
+        .holdEffect = HOLD_EFFECT_RED_FEATHER,
         .description = sDummyDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
@@ -2822,9 +2825,10 @@ const struct Item gItems[] =
 
     [ITEM_0E6] =
     {
-        .name = _("????????"),
         .itemId = ITEM_NONE,
+        .name = _("BERSERK GENE"),
         .price = 0,
+        .holdEffect = HOLD_EFFECT_BERSERK_GENE,
         .description = sDummyDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
@@ -2833,9 +2837,10 @@ const struct Item gItems[] =
 
     [ITEM_0E7] =
     {
-        .name = _("????????"),
         .itemId = ITEM_NONE,
+        .name = _("MUSIC BOX"),
         .price = 0,
+        .holdEffect = HOLD_EFFECT_MUSIC_BOX,
         .description = sDummyDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
@@ -2844,9 +2849,10 @@ const struct Item gItems[] =
 
     [ITEM_0E8] =
     {
-        .name = _("????????"),
         .itemId = ITEM_NONE,
+        .name = _("RADIANCELOOP"),
         .price = 0,
+        .holdEffect = HOLD_EFFECT_RADIANCE_LOOP,
         .description = sDummyDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
@@ -2855,9 +2861,10 @@ const struct Item gItems[] =
 
     [ITEM_0E9] =
     {
-        .name = _("????????"),
         .itemId = ITEM_NONE,
+        .name = _("WILDFIRELOOP"),
         .price = 0,
+        .holdEffect = HOLD_EFFECT_WILDFIRE_LOOP,
         .description = sDummyDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
@@ -2866,9 +2873,10 @@ const struct Item gItems[] =
 
     [ITEM_0EA] =
     {
-        .name = _("????????"),
         .itemId = ITEM_NONE,
+        .name = _("TEMPEST LOOP"),
         .price = 0,
+        .holdEffect = HOLD_EFFECT_TEMPEST_LOOP,
         .description = sDummyDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
@@ -2877,9 +2885,10 @@ const struct Item gItems[] =
 
     [ITEM_0EB] =
     {
-        .name = _("????????"),
         .itemId = ITEM_NONE,
+        .name = _("TIDAL BELL"),
         .price = 0,
+        .holdEffect = HOLD_EFFECT_TIDAL_BELL,
         .description = sDummyDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
@@ -2888,9 +2897,10 @@ const struct Item gItems[] =
 
     [ITEM_0EC] =
     {
-        .name = _("????????"),
         .itemId = ITEM_NONE,
+        .name = _("CLEAR BELL"),
         .price = 0,
+        .holdEffect = HOLD_EFFECT_CLEAR_BELL,
         .description = sDummyDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
@@ -2899,9 +2909,10 @@ const struct Item gItems[] =
 
     [ITEM_0ED] =
     {
-        .name = _("????????"),
         .itemId = ITEM_NONE,
+        .name = _("GS BALL"),
         .price = 0,
+        .holdEffect = HOLD_EFFECT_GS_BALL,
         .description = sDummyDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
@@ -2910,9 +2921,10 @@ const struct Item gItems[] =
 
     [ITEM_0EE] =
     {
-        .name = _("????????"),
         .itemId = ITEM_NONE,
+        .name = _("ROCK PART"),
         .price = 0,
+        .holdEffect = HOLD_EFFECT_ROCK_PART,
         .description = sDummyDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
@@ -2921,9 +2933,10 @@ const struct Item gItems[] =
 
     [ITEM_0EF] =
     {
-        .name = _("????????"),
         .itemId = ITEM_NONE,
+        .name = _("ICE PART"),
         .price = 0,
+        .holdEffect = HOLD_EFFECT_ICE_PART,
         .description = sDummyDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
@@ -2932,9 +2945,10 @@ const struct Item gItems[] =
 
     [ITEM_0F0] =
     {
-        .name = _("????????"),
         .itemId = ITEM_NONE,
+        .name = _("STEEL PART"),
         .price = 0,
+        .holdEffect = HOLD_EFFECT_STEEL_PART,
         .description = sDummyDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
@@ -2943,9 +2957,10 @@ const struct Item gItems[] =
 
     [ITEM_0F1] =
     {
-        .name = _("????????"),
         .itemId = ITEM_NONE,
+        .name = _("WISH STONE"),
         .price = 0,
+        .holdEffect = HOLD_EFFECT_WISH_STONE,
         .description = sDummyDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
@@ -2954,9 +2969,10 @@ const struct Item gItems[] =
 
     [ITEM_0F2] =
     {
-        .name = _("????????"),
         .itemId = ITEM_NONE,
+        .name = _("SPACE GLOBE"),
         .price = 0,
+        .holdEffect = HOLD_EFFECT_SPACE_GLOBE,
         .description = sDummyDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,

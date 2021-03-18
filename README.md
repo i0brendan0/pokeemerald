@@ -28,6 +28,7 @@ This is a hack of Pokémon Emerald.
 * Splash now does damage when raining based on the weight of the Pokémon using it. (Same table as Low Kick)
 * Swarms now include more Pokémon to choose from and more locations to find them. (Currently just Surskit from RS)
 * Restrictions on Mew and Deoxys has been lifted. All Mews and Deoxys will obey the trainer if possible.
+* Electric type Pokemon are immune to paralysis.
 
 
 ### Not Done Yet
@@ -47,7 +48,7 @@ This is a hack of Pokémon Emerald.
 * Some Pokémon will have new types to them. (List is long and may not be final)
 * Pokémon that evolve by trading will now use a special item to evolve.
 * Volt Tackle is now an egg move for Pichu. (Can still be obtained by Light Ball)
-* Some legendary Pokémon now have items specifically for them.
+* Legendary Pokémon now have items specifically for them.
 
 
 ### Not Done Yet
@@ -62,6 +63,7 @@ This is a hack of Pokémon Emerald.
 * An evolution stone shop has been added to XXX.
 * Certain legendary Pokémon have received new events in game.
 * Event only items can be received through in game events post-E4.
+* Focus Sash item. (Effect added)
 
 
 ## Pokémon
