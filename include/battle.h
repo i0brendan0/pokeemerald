@@ -133,19 +133,21 @@ struct ProtectStruct
 
 struct SpecialStatus
 {
-    u32 statLowered:1;
-    u32 lightningRodRedirected:1;
-    u32 restoredBattlerSprite: 1;
-    u32 intimidatedMon:1;
-    u32 traced:1;
-    u32 ppNotAffectedByPressure:1;
-    u32 flag40:1;
-    u32 focusBanded:1;
     s32 dmg;
     s32 physicalDmg;
     s32 specialDmg;
     u8 physicalBattlerId;
     u8 specialBattlerId;
+    u8 statLowered:1;
+    u8 lightningRodRedirected:1;
+    u8 restoredBattlerSprite: 1;
+    u8 intimidatedMon:1;
+    u8 traced:1;
+    u8 ppNotAffectedByPressure:1;
+    u8 flag40:1;
+    u8 focusBanded:1;
+    u8 focusSashed:1;
+    u8 sturdied:1;
 };
 
 struct SideTimer
@@ -451,6 +453,7 @@ struct BattleStruct
 #define IS_TYPE_PHYSICAL(moveType)(moveType < TYPE_MYSTERY)
 #define IS_TYPE_SPECIAL(moveType)(moveType > TYPE_MYSTERY)
 
+#define BATTLER_MAX_HP(battlerId)(gBattleMons[battlerId].hp == gBattleMons[battlerId].maxHP)
 #define TARGET_TURN_DAMAGED ((gSpecialStatuses[gBattlerTarget].physicalDmg != 0 || gSpecialStatuses[gBattlerTarget].specialDmg != 0))
 
 #define IS_BATTLER_OF_TYPE(battlerId, type)((gBattleMons[battlerId].type1 == type || gBattleMons[battlerId].type2 == type))

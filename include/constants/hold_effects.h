@@ -72,5 +72,6 @@
 #define HOLD_EFFECT_RUBY           68
 #define HOLD_EFFECT_SAPPHIRE       69
 #define HOLD_EFFECT_EMERALD        70
+#define HOLD_EFFECT_FOCUS_SASH     87
 
 #endif // GUARD_HOLD_EFFECTS_H
