@@ -4432,7 +4432,7 @@ BattleScript_FocusBandActivates::
 	waitmessage 0x40
 	jumpifnoholdeffect BS_TARGET, HOLD_EFFECT_FOCUS_SASH, BattleScript_HangedOnMsgRet
 	removeitem BS_TARGET
-BattleScript_HangedOnMsgRet:
+BattleScript_HangedOnMsgRet::
 	return
 
 BattleScript_BerryConfuseHealEnd2::
