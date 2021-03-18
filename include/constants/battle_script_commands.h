@@ -85,6 +85,7 @@
 #define VARIOUS_SET_ALREADY_STATUS_MOVE_ATTEMPT 23
 #define VARIOUS_SET_TELEPORT_OUTCOME            25
 #define VARIOUS_PLAY_TRAINER_DEFEATED_MUSIC     26
+#define VARIOUS_JUMP_IF_NO_HOLD_EFFECT          27
 
 // Cmd_manipulatedmg
 #define DMG_CHANGE_SIGN            0

@@ -1431,3 +1431,9 @@
 	.macro jumpifnotbattletype flags:req, jumpptr:req
 	jumpifword CMP_NO_COMMON_BITS, gBattleTypeFlags, \flags, \jumpptr
 	.endm
+
+	.macro jumpifnoholdeffect battler:req, holdEffet:req, ptr:req
+	various \battler, VARIOUS_JUMP_IF_NO_HOLD_EFFECT
+	.byte \holdEffet
+	.4byte \ptr
+	.endm

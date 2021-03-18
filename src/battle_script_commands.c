@@ -6364,6 +6364,12 @@ static void Cmd_various(void)
     case VARIOUS_IS_RUNNING_IMPOSSIBLE:
         gBattleCommunication[0] = IsRunningFromBattleImpossible();
         break;
+    case VARIOUS_JUMP_IF_NO_HOLD_EFFECT:
+        if (GetBattlerHoldEffect(gActiveBattler, TRUE) != gBattlescriptCurrInstr[3])
+            gBattlescriptCurrInstr = T1_READ_PTR(gBattlescriptCurrInstr + 4);
+        else
+            gBattlescriptCurrInstr += 8;
+        return;
     case VARIOUS_GET_MOVE_TARGET:
         gBattlerTarget = GetMoveTarget(gCurrentMove, 0);
         break;
