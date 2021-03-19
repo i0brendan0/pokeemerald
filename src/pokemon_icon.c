@@ -7,7 +7,7 @@
 
 #define POKE_ICON_BASE_PAL_TAG 56000
 
-#define INVALID_ICON_SPECIES SPECIES_OLD_UNOWN_J // Oddly specific, used when an icon should be a ?. Any of the 'old unown' would work
+#define INVALID_ICON_SPECIES SPECIES_NONE
 
 struct MonIconSpriteTemplate
 {
@@ -26,7 +26,7 @@ static u8 CreateMonIconSprite(struct MonIconSpriteTemplate *, s16, s16, u8);
 
 const u8 *const gMonIconTable[] =
 {
-    [SPECIES_NONE] = gMonIcon_Bulbasaur,
+    [SPECIES_NONE] = gMonIcon_QuestionMark,
     [SPECIES_BULBASAUR] = gMonIcon_Bulbasaur,
     [SPECIES_IVYSAUR] = gMonIcon_Ivysaur,
     [SPECIES_VENUSAUR] = gMonIcon_Venusaur,
@@ -278,7 +278,7 @@ const u8 *const gMonIconTable[] =
     [SPECIES_LUGIA] = gMonIcon_Lugia,
     [SPECIES_HO_OH] = gMonIcon_HoOh,
     [SPECIES_CELEBI] = gMonIcon_Celebi,
-    [SPECIES_OLD_UNOWN_B] = gMonIcon_QuestionMark,
+/*    [SPECIES_OLD_UNOWN_B] = gMonIcon_QuestionMark,
     [SPECIES_OLD_UNOWN_C] = gMonIcon_QuestionMark,
     [SPECIES_OLD_UNOWN_D] = gMonIcon_QuestionMark,
     [SPECIES_OLD_UNOWN_E] = gMonIcon_QuestionMark,
@@ -302,7 +302,7 @@ const u8 *const gMonIconTable[] =
     [SPECIES_OLD_UNOWN_W] = gMonIcon_QuestionMark,
     [SPECIES_OLD_UNOWN_X] = gMonIcon_QuestionMark,
     [SPECIES_OLD_UNOWN_Y] = gMonIcon_QuestionMark,
-    [SPECIES_OLD_UNOWN_Z] = gMonIcon_QuestionMark,
+    [SPECIES_OLD_UNOWN_Z] = gMonIcon_QuestionMark,*/
     [SPECIES_TREECKO] = gMonIcon_Treecko,
     [SPECIES_GROVYLE] = gMonIcon_Grovyle,
     [SPECIES_SCEPTILE] = gMonIcon_Sceptile,
