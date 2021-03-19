@@ -2235,7 +2235,8 @@ static void CreatePokedexList(u8 dexMode, u8 order)
         }
         break;
     case ORDER_ALPHABETICAL:
-        for (i = 0; i < NUM_SPECIES - 1; i++)
+//        for (i = 0; i < NUM_SPECIES - 1; i++)
+        for (i = 0; i < SPECIES_CHIMECHO; i++)
         {
             temp_dexNum = gPokedexOrder_Alphabetical[i];
 
