@@ -252,7 +252,7 @@ const struct CompressedSpriteSheet gMonFrontPicTable[] =
     SPECIES_SPRITE(LUGIA, gMonFrontPic_Lugia),
     SPECIES_SPRITE(HO_OH, gMonFrontPic_HoOh),
     SPECIES_SPRITE(CELEBI, gMonFrontPic_Celebi),
-    SPECIES_SPRITE(OLD_UNOWN_B, gMonFrontPic_DoubleQuestionMark),
+/*    SPECIES_SPRITE(OLD_UNOWN_B, gMonFrontPic_DoubleQuestionMark),
     SPECIES_SPRITE(OLD_UNOWN_C, gMonFrontPic_DoubleQuestionMark),
     SPECIES_SPRITE(OLD_UNOWN_D, gMonFrontPic_DoubleQuestionMark),
     SPECIES_SPRITE(OLD_UNOWN_E, gMonFrontPic_DoubleQuestionMark),
@@ -276,7 +276,7 @@ const struct CompressedSpriteSheet gMonFrontPicTable[] =
     SPECIES_SPRITE(OLD_UNOWN_W, gMonFrontPic_DoubleQuestionMark),
     SPECIES_SPRITE(OLD_UNOWN_X, gMonFrontPic_DoubleQuestionMark),
     SPECIES_SPRITE(OLD_UNOWN_Y, gMonFrontPic_DoubleQuestionMark),
-    SPECIES_SPRITE(OLD_UNOWN_Z, gMonFrontPic_DoubleQuestionMark),
+    SPECIES_SPRITE(OLD_UNOWN_Z, gMonFrontPic_DoubleQuestionMark),*/
     SPECIES_SPRITE(TREECKO, gMonFrontPic_Treecko),
     SPECIES_SPRITE(GROVYLE, gMonFrontPic_Grovyle),
     SPECIES_SPRITE(SCEPTILE, gMonFrontPic_Sceptile),

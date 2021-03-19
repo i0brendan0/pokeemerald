@@ -252,7 +252,7 @@ const struct CompressedSpritePalette gMonShinyPaletteTable[] =
     SPECIES_SHINY_PAL(LUGIA, gMonShinyPalette_Lugia),
     SPECIES_SHINY_PAL(HO_OH, gMonShinyPalette_HoOh),
     SPECIES_SHINY_PAL(CELEBI, gMonShinyPalette_Celebi),
-    SPECIES_SHINY_PAL(OLD_UNOWN_B, gMonShinyPalette_DoubleQuestionMark),
+/*    SPECIES_SHINY_PAL(OLD_UNOWN_B, gMonShinyPalette_DoubleQuestionMark),
     SPECIES_SHINY_PAL(OLD_UNOWN_C, gMonShinyPalette_DoubleQuestionMark),
     SPECIES_SHINY_PAL(OLD_UNOWN_D, gMonShinyPalette_DoubleQuestionMark),
     SPECIES_SHINY_PAL(OLD_UNOWN_E, gMonShinyPalette_DoubleQuestionMark),
@@ -276,7 +276,7 @@ const struct CompressedSpritePalette gMonShinyPaletteTable[] =
     SPECIES_SHINY_PAL(OLD_UNOWN_W, gMonShinyPalette_DoubleQuestionMark),
     SPECIES_SHINY_PAL(OLD_UNOWN_X, gMonShinyPalette_DoubleQuestionMark),
     SPECIES_SHINY_PAL(OLD_UNOWN_Y, gMonShinyPalette_DoubleQuestionMark),
-    SPECIES_SHINY_PAL(OLD_UNOWN_Z, gMonShinyPalette_DoubleQuestionMark),
+    SPECIES_SHINY_PAL(OLD_UNOWN_Z, gMonShinyPalette_DoubleQuestionMark),*/
     SPECIES_SHINY_PAL(TREECKO, gMonShinyPalette_Treecko),
     SPECIES_SHINY_PAL(GROVYLE, gMonShinyPalette_Grovyle),
     SPECIES_SHINY_PAL(SCEPTILE, gMonShinyPalette_Sceptile),

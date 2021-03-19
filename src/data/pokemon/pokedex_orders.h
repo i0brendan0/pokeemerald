@@ -1,6 +1,6 @@
 const u16 gPokedexOrder_Alphabetical[] =
 {
-    NATIONAL_DEX_OLD_UNOWN_B,
+/*    NATIONAL_DEX_OLD_UNOWN_B,
     NATIONAL_DEX_OLD_UNOWN_C,
     NATIONAL_DEX_OLD_UNOWN_D,
     NATIONAL_DEX_OLD_UNOWN_E,
@@ -24,7 +24,7 @@ const u16 gPokedexOrder_Alphabetical[] =
     NATIONAL_DEX_OLD_UNOWN_W,
     NATIONAL_DEX_OLD_UNOWN_X,
     NATIONAL_DEX_OLD_UNOWN_Y,
-    NATIONAL_DEX_OLD_UNOWN_Z,
+    NATIONAL_DEX_OLD_UNOWN_Z,*/
     // Actual pokemon start here.
     NATIONAL_DEX_ABRA,
     NATIONAL_DEX_ABSOL,

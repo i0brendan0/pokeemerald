@@ -254,7 +254,7 @@ const struct CompressedSpriteSheet gMonStillFrontPicTable[] =
     SPECIES_SPRITE(HO_OH,         gMonStillFrontPic_HoOh),
     SPECIES_SPRITE(CELEBI,        gMonStillFrontPic_Celebi),
 // Empty slots
-    SPECIES_SPRITE(OLD_UNOWN_B,   gMonStillFrontPic_DoubleQuestionMark),
+/*    SPECIES_SPRITE(OLD_UNOWN_B,   gMonStillFrontPic_DoubleQuestionMark),
     SPECIES_SPRITE(OLD_UNOWN_C,   gMonStillFrontPic_DoubleQuestionMark),
     SPECIES_SPRITE(OLD_UNOWN_D,   gMonStillFrontPic_DoubleQuestionMark),
     SPECIES_SPRITE(OLD_UNOWN_E,   gMonStillFrontPic_DoubleQuestionMark),
@@ -278,7 +278,7 @@ const struct CompressedSpriteSheet gMonStillFrontPicTable[] =
     SPECIES_SPRITE(OLD_UNOWN_W,   gMonStillFrontPic_DoubleQuestionMark),
     SPECIES_SPRITE(OLD_UNOWN_X,   gMonStillFrontPic_DoubleQuestionMark),
     SPECIES_SPRITE(OLD_UNOWN_Y,   gMonStillFrontPic_DoubleQuestionMark),
-    SPECIES_SPRITE(OLD_UNOWN_Z,   gMonStillFrontPic_DoubleQuestionMark),
+    SPECIES_SPRITE(OLD_UNOWN_Z,   gMonStillFrontPic_DoubleQuestionMark),*/
 // Gen III
     SPECIES_SPRITE(TREECKO,       gMonStillFrontPic_Treecko),
     SPECIES_SPRITE(GROVYLE,       gMonStillFrontPic_Grovyle),

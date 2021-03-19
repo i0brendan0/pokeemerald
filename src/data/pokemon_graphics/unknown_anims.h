@@ -1215,7 +1215,7 @@ static const union AnimCmd *const sUnknownAnims_TYRANITAR[] = {sAnim_GeneralFram
 static const union AnimCmd *const sUnknownAnims_LUGIA[] = {sAnim_GeneralFrame0};
 static const union AnimCmd *const sUnknownAnims_HO_OH[] = {sAnim_GeneralFrame0};
 static const union AnimCmd *const sUnknownAnims_CELEBI[] = {sAnim_GeneralFrame0};
-static const union AnimCmd *const sUnknownAnims_OLD_UNOWN[] = {sAnim_GeneralFrame0};
+//static const union AnimCmd *const sUnknownAnims_OLD_UNOWN[] = {sAnim_GeneralFrame0};
 static const union AnimCmd *const sUnknownAnims_TREECKO[] = {sAnim_GeneralFrame0};
 static const union AnimCmd *const sUnknownAnims_GROVYLE[] = {sAnim_GeneralFrame0};
 static const union AnimCmd *const sUnknownAnims_SCEPTILE[] = {sAnim_GeneralFrame0};
@@ -2128,7 +2128,7 @@ static const union AnimCmd *const *const sUnknownAnimsTable[] =
     ANIM_CMD(LUGIA),
     ANIM_CMD(HO_OH),
     ANIM_CMD(CELEBI),
-    ANIM_CMD_FULL(OLD_UNOWN_B, sUnknownAnims_OLD_UNOWN),
+/*    ANIM_CMD_FULL(OLD_UNOWN_B, sUnknownAnims_OLD_UNOWN),
     ANIM_CMD_FULL(OLD_UNOWN_C, sUnknownAnims_OLD_UNOWN),
     ANIM_CMD_FULL(OLD_UNOWN_D, sUnknownAnims_OLD_UNOWN),
     ANIM_CMD_FULL(OLD_UNOWN_E, sUnknownAnims_OLD_UNOWN),
@@ -2152,7 +2152,7 @@ static const union AnimCmd *const *const sUnknownAnimsTable[] =
     ANIM_CMD_FULL(OLD_UNOWN_W, sUnknownAnims_OLD_UNOWN),
     ANIM_CMD_FULL(OLD_UNOWN_X, sUnknownAnims_OLD_UNOWN),
     ANIM_CMD_FULL(OLD_UNOWN_Y, sUnknownAnims_OLD_UNOWN),
-    ANIM_CMD_FULL(OLD_UNOWN_Z, sUnknownAnims_OLD_UNOWN),
+    ANIM_CMD_FULL(OLD_UNOWN_Z, sUnknownAnims_OLD_UNOWN),*/
     ANIM_CMD(TREECKO),
     ANIM_CMD(GROVYLE),
     ANIM_CMD(SCEPTILE),

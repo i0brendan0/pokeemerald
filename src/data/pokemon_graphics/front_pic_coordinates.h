@@ -1260,7 +1260,7 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x55,
         .y_offset = 14,
     },
-    [SPECIES_OLD_UNOWN_B] =
+/*    [SPECIES_OLD_UNOWN_B] =
     {
         .size = 0x87,
         .y_offset = 4,
@@ -1384,7 +1384,7 @@ const struct MonCoords gMonFrontPicCoords[] =
     {
         .size = 0x87,
         .y_offset = 4,
-    },
+    },*/
     [SPECIES_TREECKO] =
     {
         .size = 0x66,

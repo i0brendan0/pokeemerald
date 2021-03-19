@@ -346,7 +346,7 @@ const u16 gSpeciesToHoennPokedexNum[] = // Assigns all species to the Hoenn Dex 
     SPECIES_TO_HOENN(LUGIA),
     SPECIES_TO_HOENN(HO_OH),
     SPECIES_TO_HOENN(CELEBI),
-    SPECIES_TO_HOENN(OLD_UNOWN_B),
+ /*   SPECIES_TO_HOENN(OLD_UNOWN_B),
     SPECIES_TO_HOENN(OLD_UNOWN_C),
     SPECIES_TO_HOENN(OLD_UNOWN_D),
     SPECIES_TO_HOENN(OLD_UNOWN_E),
@@ -370,7 +370,7 @@ const u16 gSpeciesToHoennPokedexNum[] = // Assigns all species to the Hoenn Dex 
     SPECIES_TO_HOENN(OLD_UNOWN_W),
     SPECIES_TO_HOENN(OLD_UNOWN_X),
     SPECIES_TO_HOENN(OLD_UNOWN_Y),
-    SPECIES_TO_HOENN(OLD_UNOWN_Z),
+    SPECIES_TO_HOENN(OLD_UNOWN_Z),*/
     SPECIES_TO_HOENN(TREECKO),
     SPECIES_TO_HOENN(GROVYLE),
     SPECIES_TO_HOENN(SCEPTILE),
@@ -761,7 +761,7 @@ const u16 gSpeciesToNationalPokedexNum[] = // Assigns all species to the Nationa
     SPECIES_TO_NATIONAL(LUGIA),
     SPECIES_TO_NATIONAL(HO_OH),
     SPECIES_TO_NATIONAL(CELEBI),
-    SPECIES_TO_NATIONAL(OLD_UNOWN_B),
+ /*   SPECIES_TO_NATIONAL(OLD_UNOWN_B),
     SPECIES_TO_NATIONAL(OLD_UNOWN_C),
     SPECIES_TO_NATIONAL(OLD_UNOWN_D),
     SPECIES_TO_NATIONAL(OLD_UNOWN_E),
@@ -785,7 +785,7 @@ const u16 gSpeciesToNationalPokedexNum[] = // Assigns all species to the Nationa
     SPECIES_TO_NATIONAL(OLD_UNOWN_W),
     SPECIES_TO_NATIONAL(OLD_UNOWN_X),
     SPECIES_TO_NATIONAL(OLD_UNOWN_Y),
-    SPECIES_TO_NATIONAL(OLD_UNOWN_Z),
+    SPECIES_TO_NATIONAL(OLD_UNOWN_Z),*/
     SPECIES_TO_NATIONAL(TREECKO),
     SPECIES_TO_NATIONAL(GROVYLE),
     SPECIES_TO_NATIONAL(SCEPTILE),
@@ -1311,7 +1311,7 @@ const u16 gHoennToNationalOrder[] = // Assigns Hoenn Dex Pokémon (Using Nationa
     HOENN_TO_NATIONAL(LUGIA),
     HOENN_TO_NATIONAL(HO_OH),
     HOENN_TO_NATIONAL(CELEBI),
-    HOENN_TO_NATIONAL(OLD_UNOWN_B),
+ /*   HOENN_TO_NATIONAL(OLD_UNOWN_B),
     HOENN_TO_NATIONAL(OLD_UNOWN_C),
     HOENN_TO_NATIONAL(OLD_UNOWN_D),
     HOENN_TO_NATIONAL(OLD_UNOWN_E),
@@ -1335,7 +1335,7 @@ const u16 gHoennToNationalOrder[] = // Assigns Hoenn Dex Pokémon (Using Nationa
     HOENN_TO_NATIONAL(OLD_UNOWN_W),
     HOENN_TO_NATIONAL(OLD_UNOWN_X),
     HOENN_TO_NATIONAL(OLD_UNOWN_Y),
-    HOENN_TO_NATIONAL(OLD_UNOWN_Z),
+    HOENN_TO_NATIONAL(OLD_UNOWN_Z),*/
 };
 
 const struct SpindaSpot gSpindaSpotGraphics[] =
@@ -1642,7 +1642,7 @@ static const u8 sMonFrontAnimIdsTable[] =
     [SPECIES_LUGIA - 1] = 0x3a,
     [SPECIES_HO_OH - 1] = 0x09,
     [SPECIES_CELEBI - 1] = 0x18,
-    [SPECIES_OLD_UNOWN_B - 1] = 0x00,
+ /*   [SPECIES_OLD_UNOWN_B - 1] = 0x00,
     [SPECIES_OLD_UNOWN_C - 1] = 0x00,
     [SPECIES_OLD_UNOWN_D - 1] = 0x00,
     [SPECIES_OLD_UNOWN_E - 1] = 0x00,
@@ -1666,7 +1666,7 @@ static const u8 sMonFrontAnimIdsTable[] =
     [SPECIES_OLD_UNOWN_W - 1] = 0x00,
     [SPECIES_OLD_UNOWN_X - 1] = 0x00,
     [SPECIES_OLD_UNOWN_Y - 1] = 0x00,
-    [SPECIES_OLD_UNOWN_Z - 1] = 0x00,
+    [SPECIES_OLD_UNOWN_Z - 1] = 0x00,*/
     [SPECIES_TREECKO - 1] = 0x00,
     [SPECIES_GROVYLE - 1] = 0x17,
     [SPECIES_SCEPTILE - 1] = 0x10,

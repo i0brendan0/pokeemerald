@@ -6055,7 +6055,7 @@ const u32 gTMHMLearnsets[][2] =
                                         | TMHM(HM01_CUT)
                                         | TMHM(HM05_FLASH)),
 
-    [SPECIES_OLD_UNOWN_B] = TMHM_LEARNSET(0),
+/*    [SPECIES_OLD_UNOWN_B] = TMHM_LEARNSET(0),
 
     [SPECIES_OLD_UNOWN_C] = TMHM_LEARNSET(0),
 
@@ -6103,7 +6103,7 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_OLD_UNOWN_Y] = TMHM_LEARNSET(0),
 
-    [SPECIES_OLD_UNOWN_Z] = TMHM_LEARNSET(0),
+    [SPECIES_OLD_UNOWN_Z] = TMHM_LEARNSET(0),*/
 
     [SPECIES_TREECKO]     = TMHM_LEARNSET(TMHM(TM01_FOCUS_PUNCH)
                                         | TMHM(TM06_TOXIC)

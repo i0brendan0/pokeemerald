@@ -2,7 +2,7 @@
 // 255 (MON_GENDERLESS) is reserved for genderless Pokémon.
 #define PERCENT_FEMALE(percent) min(254, ((percent * 255) / 100))
 
-#define OLD_UNOWN_BASE_STATS                        \
+/*#define OLD_UNOWN_BASE_STATS                        \
     {                                               \
         .baseHP = 50,                               \
         .baseAttack = 150,                          \
@@ -32,7 +32,7 @@
         .safariZoneFleeRate = 0,                    \
         .bodyColor = BODY_COLOR_BLACK,              \
         .noFlip = FALSE,                            \
-    }
+    }*/
 
 const struct BaseStats gBaseStats[] =
 {
@@ -8070,7 +8070,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_OLD_UNOWN_B] = OLD_UNOWN_BASE_STATS,
+/*    [SPECIES_OLD_UNOWN_B] = OLD_UNOWN_BASE_STATS,
 
     [SPECIES_OLD_UNOWN_C] = OLD_UNOWN_BASE_STATS,
 
@@ -8118,7 +8118,7 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_OLD_UNOWN_Y] = OLD_UNOWN_BASE_STATS,
 
-    [SPECIES_OLD_UNOWN_Z] = OLD_UNOWN_BASE_STATS,
+    [SPECIES_OLD_UNOWN_Z] = OLD_UNOWN_BASE_STATS,*/
 
     [SPECIES_TREECKO] =
     {
